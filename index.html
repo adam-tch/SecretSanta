@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="Ua">
+<head>
+	<meta charset="UTF-8">
+	<title>SecretSanta</title>
+	<meta name="description" content=" ">
+	<meta name="keywords" content=" ">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="/public/css/main.css">
+	<link rel="stylesheet" href="/public/css/media.css">
+	<link rel="stylesheet" href="/public/css/fonts.css">
+	<link rel="icon" type="image/x-icon" href="/public/images/favicon.ico">
+</head>
+
+<body>
+	<form class="form" id="form" name="form">
+		<label>
+			<input type="text" class="form-field" name="name" placeholder="Введіть Ваше ім'я">
+		</label>
+		<label>
+			<input type="text" class="form-field" name="lastname" placeholder="Введіть Ваше прізвище">
+		</label>
+		<label>
+			<input type="text" class="form-field" name="wishes" placeholder="Введіть свої побажання">
+		</label>
+		<button class="form-button"><span class="text-button">Відправити список побажань</span></button>
+	</form>
+
+	<footer>
+		<div class="overlay js-overlay-thank-you">
+			<div class="popup js-thank-you">
+				<h2>Вітаємо, Ваші побажання відправлені!</h2>
+				<div class="close-popup js-close-thank-you"></div>
+			</div>
+		</div>
+		<div class="scroll-up" id="scroll-up">Scroll up</div>
+	</footer>
+
+	<!--[if lt IE 9]>
+	<script src="/public/libs/html5shiv/es5-shim.min.js"></script>
+	<script src="/public/libs/html5shiv/html5shiv.min.js"></script>
+	<script src="/public/libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="/public/libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/public/js/main.js"></script>
+	<script src="/public/plugins/jquery-maskedinput/jquery.maskedinput.js"></script>
+
+</body>
+</html>
